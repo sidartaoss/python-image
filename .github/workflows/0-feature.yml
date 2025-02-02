@@ -8,5 +8,5 @@ on:
 
 jobs:
   python-ci:
-    uses: ./.github/worflows/python-ci.yml
+    uses: ./.github/workflows/python-ci.yml
     secrets: inherit
