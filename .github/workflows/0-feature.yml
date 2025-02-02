@@ -1,0 +1,11 @@
+name: Feature / Fix branch
+on:
+  push:
+    branches:
+      - 'feature**'
+      - 'fix**'
+
+jobs:
+  python-ci:
+    uses: ./.github/worflows/python-ci.yml
+    secrets: inherit
