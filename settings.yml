@@ -1,3 +1,3 @@
-registry: 'sidartaoss'
+registry: 'sidartasilva'
 repository: 'python-image'
 dependencies-path: 'src/requirements.txt'
